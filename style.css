@@ -116,6 +116,7 @@ a {
 
 .contentaboutme{
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 15px;
 }
 /* End of about me section*/    
     
@@ -166,6 +167,7 @@ background-image:url(/assets/1.jpg);
 border-color: #92CCCE;
 border: 5px solid;
 border-color: #92CCCE;
+margin: 20px;
 }
 .card1 div{
     flex-basis: 40%;
@@ -189,6 +191,7 @@ border-color: #92CCCE;
     border-color:#92CCCE;
     border: 5px solid;
     border-color:#92CCCE;
+    margin: 20px;
 }
 
 
@@ -216,6 +219,7 @@ border-color: #92CCCE;
     border-color:#92CCCE;
     border: 5px solid;
     border-color:#92CCCE;
+    margin: 20px;
 }
 
 .card3 div{
@@ -239,6 +243,7 @@ border-color: #92CCCE;
     border-color:#92CCCE;
     border: 5px solid;
     border-color:#92CCCE;
+    margin: 20px;
 }
 
 .card4 div{
@@ -262,6 +267,7 @@ border-color: #92CCCE;
     border-color:#92CCCE;
     border: 5px solid;
     border-color:#92CCCE;
+    margin: 20px;
 
 }
 
