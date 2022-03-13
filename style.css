@@ -60,7 +60,7 @@ a {
 
 .mainpicture{
     
-    background-image: url(./assets/images/picture.JPG);
+    background-image: url(./BLUEWOOD.JPG);
     min-height: 400px;
     display:flex;
     justify-content:flex-end;
@@ -163,7 +163,7 @@ a {
     flex-basis: 100%;
 min-height:250px ;
 min-width:500px;
-background-image:url(/assets/images/1.JPG);
+background-image:url(./1.JPG);
 border-color: #92CCCE;
 border: 5px solid;
 border-color: #92CCCE;
@@ -187,7 +187,7 @@ margin: 20px;
     flex-basis: 40%;
     min-height:250px ;
     min-width:250px;
-    background-image:url(/assets/images/2.JPG);
+    background-image:url(./2.JPG);
     border-color:#92CCCE;
     border: 5px solid;
     border-color:#92CCCE;
@@ -215,7 +215,7 @@ margin: 20px;
     flex-basis: 40%;
     min-height:250px ;
     min-width:250px;
-    background-image:url(/assets/images/3.JPG);
+    background-image:url(./3.JPG);
     border-color:#92CCCE;
     border: 5px solid;
     border-color:#92CCCE;
@@ -239,7 +239,7 @@ margin: 20px;
     flex-basis: 40%;
     min-height:250px ;
     min-width:250px; 
-    background-image:url(/assets/images/200504-AI1.JPG);
+    background-image:url(./200504-AI1.JPG);
     border-color:#92CCCE;
     border: 5px solid;
     border-color:#92CCCE;
@@ -263,7 +263,7 @@ margin: 20px;
     flex-basis: 40%;
     min-height:250px ;
     min-width:250px;
-    background-image:url(/assets/images/5.JPG);
+    background-image:url(./5.JPG);
     border-color:#92CCCE;
     border: 5px solid;
     border-color:#92CCCE;
