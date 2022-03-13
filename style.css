@@ -175,7 +175,10 @@ border-color: #92CCCE;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 100px;
      top:50%;
-     margin: 20px;
+     
+}
+.card1:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
 }
 
 .card2{
@@ -188,6 +191,8 @@ border-color: #92CCCE;
     border-color:#92CCCE;
 }
 
+
+
 .card2 div{
     flex-basis: 40%;
     position:relative;
@@ -198,6 +203,9 @@ border-color: #92CCCE;
      top:50%
 }
 
+.card2:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+}
 
 
 .card3{
@@ -219,7 +227,9 @@ border-color: #92CCCE;
     max-width: 100px;
      top:50%
 }
-   
+.card3:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+}
 
 .card4{
     flex-basis: 40%;
@@ -240,6 +250,9 @@ border-color: #92CCCE;
     max-width: 100px;
      top:50%
 }
+.card4:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+}
 
 .card5{
     flex-basis: 40%;
@@ -259,6 +272,10 @@ border-color: #92CCCE;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 100px;
      top:50%
+}
+
+.card5:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
 }
 /* end of work section*/
 
@@ -318,3 +335,5 @@ border-color: #92CCCE;
 
 
 /* End of contact section */
+
+
