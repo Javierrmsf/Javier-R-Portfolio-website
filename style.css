@@ -105,6 +105,7 @@ a {
     padding-right: 70px;
     min-width: 200px;
     min-height: 300px;
+    
      
 }  
 .box1aboutme h3{
@@ -309,12 +310,17 @@ margin: 20px;
     width: 200px;
      
 }  
+
 .box1contact h3{
     position: relative;
     font-size: 45px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.contactmearrangement{
+    display:flex;
+    flex-direction: column;
+}
 .contactlinks{
     
    display:flex;
@@ -377,7 +383,10 @@ header div ul li{
     display:flex;
     justify-content:right;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+
     
     border-right-color:#0b1431;
     border-right: 0px solid;
@@ -393,6 +402,11 @@ header div ul li{
 
     font-size: 45px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.aboutmearrangement {
+   display:flex;
+   flex-direction: row; 
 }
 .contentaboutme{
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -570,12 +584,13 @@ margin: 20px;
     margin-left: 5px;
     margin-right: 5px;
     align-items: center
+    
 
 }
 .box1contact{
     display:flex;
     justify-content:center;
-    flex-direction:row;
+    flex-direction:column;
     
     border-right-color:#0b1431;
     border-right: 0px solid;
@@ -584,12 +599,16 @@ margin: 20px;
     padding-right: 0px;
     min-height: 100px;
     min-width: 100px;
-     
+    
 }  
 .box1contact h3{
     position: relative;
     font-size: 45px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contactmearrangement{
+    display:flex;
+    flex-direction: row;
 }
 
 .contactlinks{

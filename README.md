@@ -8,3 +8,11 @@ this homework. I focused more on the style and functionality of the page rather 
  
 Here's a link to the deployed website:
 https://javierrmsf.github.io/Javier-R-Portfolio-website/
+
+
+The website changes its arrangement once the width is reduced to 883px or less
+here are two screenshots:
+
+![image](./Capture1.JPG)
+
+![image](./Capture2.JPG)
