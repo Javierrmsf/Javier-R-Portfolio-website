@@ -4,7 +4,12 @@
     margin: 0;
 }
 
-/*---- header---*/
+body {
+   display:flex;
+   flex-direction:column
+}
+
+/*------------- header------------*/
 
 header {
     padding: 20px;
@@ -48,7 +53,34 @@ a {
    
 }
 
-/*---end of header--*/
+/*------------end of header-----------*/
+
+/*start of main picture box */
 
 
+.mainpicture{
+    
+    background-image: url(./assets/picture.JPG);
+    min-height: 400px;
+    display:flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    
+    
+}
+
+h3{
+    position:relative;
+    right:30px;
+    bottom:30px;
+    color:#31343D;
+    background-color: #92CCCE;
+    padding: 10px 2% 10px 2%;
+    margin-left: -20px;
+}
+
+
+
+
+/* end of main picture box*/
 
