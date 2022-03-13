@@ -160,6 +160,14 @@ a {
     flex-wrap: wrap;
 }
 
+h4{
+    color: black;
+    
+}
+span{
+     color:black
+}
+
 .card1{
     flex-basis: 100%;
 min-height:250px ;
