@@ -318,6 +318,7 @@ margin: 20px;
 .contactlinks{
     
    display:flex;
+   flex-wrap: wrap;
    align-items: center;
    justify-content: center;
    justify-items: center;
@@ -343,3 +344,267 @@ margin: 20px;
 /* End of contact section */
 
 
+/*this section is the arrangement for the website, once the dimensions have a width of 883px or smaller, the most noticeable change is the central vertical arrangement
+for many elements*/
+
+@media screen and (max-width: 883px) {
+
+
+header{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+header div ul li{  
+    margin-left: 0px;
+}
+
+.mainpicture{
+    min-height: 200px;
+}
+
+.aboutme {
+    display:flex;
+    flex-direction: column;
+    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center
+}
+
+.box1aboutme{
+    display:flex;
+    justify-content:right;
+    display:flex;
+    flex-direction:row;
+    
+    border-right-color:#0b1431;
+    border-right: 0px solid;
+    border-bottom: 5px solid;
+    left: 0px;
+    padding-right: 0px;
+    min-width: 100px;
+    min-height: 100px;
+     
+}  
+.box1aboutme h3{
+    position: relative;
+
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contentaboutme{
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+}
+
+.work {
+    display:flex;
+    flex-direction: column;
+    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+    
+
+}
+.box1work{
+    display:flex;
+    justify-content:right;
+    display:flex;
+    flex-direction:column;
+    
+    border-right-color:#0b1431;
+    border-right: 0px solid;
+    border-bottom: 5px solid;
+    left: 0px;
+    padding-right: 0px;
+    min-height: 100px;
+    min-width: 100px;
+     
+}  
+.box1work h3{
+    position: relative;
+
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.boxwithcards{
+    display:flex;
+    
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.card1{
+    flex-basis: 100%;
+min-height:250px ;
+min-width: 250px;
+background-image:url(./1.JPG);
+border-color: #92CCCE;
+border: 5px solid;
+border-color: #92CCCE;
+margin: 20px;
+}
+.card1 div{
+    flex-basis: 40%;
+    position:relative;
+    padding: 5px; 
+    background-color: #92CCCE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 100px;
+     top:50%;
+     
+}
+.card1:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+}
+
+.card2{
+    flex-basis: 100%;
+    min-height:250px ;
+    min-width:250px;
+    background-image:url(./2.JPG);
+    border-color:#92CCCE;
+    border: 5px solid;
+    border-color:#92CCCE;
+    margin: 20px;
+}
+
+
+
+.card2 div{
+    flex-basis: 40%;
+    position:relative;
+    padding: 5px; 
+    background-color: #92CCCE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 100px;
+     top:50%
+}
+
+.card2:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+}
+
+
+.card3{
+    flex-basis: 100%;
+    min-height:250px ;
+    min-width:250px;
+    background-image:url(./3.JPG);
+    border-color:#92CCCE;
+    border: 5px solid;
+    border-color:#92CCCE;
+    margin: 20px;
+}
+
+.card3 div{
+    flex-basis: 100%;
+    position:relative;
+    padding: 5px; 
+    background-color: #92CCCE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 100px;
+     top:50%
+}
+.card3:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+}
+
+.card4{
+    flex-basis: 100%;
+    min-height:250px ;
+    min-width:250px; 
+    background-image:url(./200504-AI1.JPG);
+    border-color:#92CCCE;
+    border: 5px solid;
+    border-color:#92CCCE;
+    margin: 20px;
+}
+
+.card4 div{
+    flex-basis: 40%;
+    position:relative;
+    padding: 5px; 
+    background-color: #92CCCE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 100px;
+     top:50%
+}
+.card4:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+}
+
+.card5{
+    flex-basis: 100%;
+    min-height:250px ;
+    min-width:250px;
+    background-image:url(./5.JPG);
+    border-color:#92CCCE;
+    border: 5px solid;
+    border-color:#92CCCE;
+    margin: 20px;
+
+}
+
+.card5 div{
+    position:relative;
+    padding: 5px; 
+    background-color: #92CCCE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 100px;
+     top:50%
+}
+
+.card5:hover{
+    box-shadow: 0 0 30px rgba(33,33,33,.2);
+}
+
+.contact {
+    display:flex;
+    flex-direction: column;
+    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center
+
+}
+.box1contact{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    
+    border-right-color:#0b1431;
+    border-right: 0px solid;
+    border-bottom: 5px solid;
+    left: 0px;
+    padding-right: 0px;
+    min-height: 100px;
+    min-width: 100px;
+     
+}  
+.box1contact h3{
+    position: relative;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contactlinks{
+    
+   display:flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+   
+
+    
+    
+}
+
+
+
+}
